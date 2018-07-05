@@ -43,10 +43,7 @@ class Text implements BodyElement {
       'line_height': lineHeight,
       'name': name,
       'rich_text': richText?.toMap(),
-      'text_alignment': textAlignment
-          .toString()
-          .substring('TextAlignment.'.length)
-          .toUpperCase(),
+      'text_alignment': textAlignment.toString().split('.').last.toUpperCase(),
       'text_color': textColor,
       'top_padding': topPadding,
     };
