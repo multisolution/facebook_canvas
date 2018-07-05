@@ -1,4 +1,4 @@
-import 'body_element.dart';
+import 'src/body_element.dart';
 
 class Canvas {
   String backgroundColor;

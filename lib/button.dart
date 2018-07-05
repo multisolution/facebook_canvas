@@ -1,7 +1,7 @@
-import 'body_element.dart';
-import 'rich_text.dart';
+import 'src/body_element.dart';
 import 'src/helpers.dart';
-import 'text_alignment.dart';
+import 'src/rich_text.dart';
+import 'src/text_alignment.dart';
 
 enum ButtonStyle {
   outline,
