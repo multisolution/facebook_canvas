@@ -1,21 +1,12 @@
 import 'src/body_element.dart';
 import 'src/helpers.dart';
+import 'src/open_url_action.dart';
 import 'src/rich_text.dart';
 import 'src/text_alignment.dart';
 
 enum ButtonStyle {
   outline,
   filled,
-}
-
-class OpenUrlAction {
-  String url;
-
-  OpenUrlAction(this.url);
-
-  Map<String, dynamic> toMap() {
-    return {'url': url};
-  }
 }
 
 class Button implements BodyElement {
