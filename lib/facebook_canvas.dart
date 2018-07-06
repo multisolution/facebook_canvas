@@ -2,6 +2,7 @@ library facebook_canvas;
 
 export 'button.dart';
 export 'canvas.dart';
+export 'photo.dart';
 export 'src/body_element.dart';
 export 'src/inline_style.dart';
 export 'src/open_url_action.dart';

@@ -8,4 +8,8 @@ void main() {
   test('enumToString', () {
     expect(enumToString<EnumFixture>(EnumFixture.test), equals('test'));
   });
+
+  test('toConstantCase', () {
+    expect(toConstantCase('fooBarBaz'), equals('FOO_BAR_BAZ'));
+  });
 }
